@@ -2,3 +2,19 @@
 mkdir part1_data_cleaning\data
 mkdir part1_data_cleaning\outputs
 mkdir part1_data_cleaning\screenshots
+type nul > part1_data_cleaning\data\.gitkeep
+type nul > part1_data_cleaning\screenshots\.gitkeep
+part1_data_cleaning/
+├── data/
+│   ├── raw_orders.xlsx          ← copy from your downloads
+│   └── cleaned_orders.xlsx      ← copy from your outputs
+├── outputs/
+│   ├── data_quality_report.xlsx ← copy from your outputs
+│   ├── pivot_summary.xlsx       ← copy from your outputs
+│   └── cleaning_log.md          ← copy from your outputs
+├── screenshots/
+│   ├── raw_data_preview.png     ← screenshot you take
+│   ├── cleaned_data_preview.png ← screenshot you take
+│   ├── pivot_summary_1.png      ← screenshot you take
+│   └── pivot_summary_2.png      ← screenshot you take
+└── README.md                    ← created in Step 7
